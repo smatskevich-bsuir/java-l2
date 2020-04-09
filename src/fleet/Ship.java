@@ -1,8 +1,8 @@
 package fleet;
 
 public class Ship {
-	private String name;
-	private int displacement;
+	protected String name;
+	protected int displacement;
 	
 	public Ship(String name, int displacement)
 	{
